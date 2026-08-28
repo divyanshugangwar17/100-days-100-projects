@@ -1,0 +1,4 @@
+name=input("enter your name:")
+age=input("enter your age:")
+print("ny name is :",name)
+print("i am ",age,"years old")
