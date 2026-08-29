@@ -1,0 +1,5 @@
+password=input("enter your password:")
+if password=="python9219":
+    print("access granted!")
+else:
+    print("access denied!!!!!!")
