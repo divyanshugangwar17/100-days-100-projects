@@ -1,0 +1,10 @@
+favouriteseries=[]
+s1=input("enter your first fav.series")
+favouriteseries.append(s1)
+s2=input("enter your second fav.series")
+favouriteseries.append(s2)
+s3=input("enter your third fav.series")
+favouriteseries.append(s3)
+s4=input("enter your fourth fav.series")
+favouriteseries.append(s4)
+print(favouriteseries)
