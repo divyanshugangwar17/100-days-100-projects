@@ -1,0 +1,10 @@
+task=[]
+task1=input("enter your daily task1: ")
+task.append(task1)
+task2=input("enter your daily task2: ")
+task.append(task2)
+task3=input("enter your daily task3: ")
+task.append(task3)
+task4=input("enter your daily task4: ")
+task.append(task4)
+print(task)
