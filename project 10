@@ -1,0 +1,6 @@
+import random
+char="gdliw681hweriy9816r13242!@##$"
+password=""
+for i in range(8):
+    password+=random.choice(char)
+print("generated password is :",password)
