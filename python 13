@@ -1,0 +1,13 @@
+import random
+items=["rock","paper","scissors"]
+computer=random.choice(items)
+user=input("rock paper scissors").lower()
+print("computer choose",computer)
+if user==computer:
+    print("match draw")
+elif user=="rock" and computer=="scissors":
+    print("user wins")
+elif user=="paper" and computer=="scissors":
+    print("computer wins")
+elif user=="scissors" and computer=="paper":
+    print("user wins")
