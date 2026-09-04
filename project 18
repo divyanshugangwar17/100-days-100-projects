@@ -1,0 +1,8 @@
+balance=2000000
+amount=int(input("ente the withdrawl amount :"))
+if amount<=balance:
+    balance-=amount
+    print("transaction succesful")
+    print("the left over balance is :",balance)
+else:
+    print("gareeb saale")
