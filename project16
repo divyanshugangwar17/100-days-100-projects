@@ -1,0 +1,8 @@
+username="_divyanshugangwar"
+password="divya@123"
+u=input("enter your username:")
+p=input("enter your password :")
+if u==username and p==password:
+    print("namaskar mitr")
+else:
+    print("nikal ja yaha se")
