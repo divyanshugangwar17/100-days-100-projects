@@ -1,0 +1,4 @@
+import time
+seconds=int(input("enter time :"))
+time.sleep(seconds)
+print("time's up")
