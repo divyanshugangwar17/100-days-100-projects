@@ -1,0 +1,30 @@
+print("\n===MINI SHOPPING CAR===")
+products=("rice,wheat,soup,kela")
+price=[23,30,56,40]
+cart=[]
+total=0
+while True:
+    print("\n available products:")
+    for i in range(len(products)):
+        print(i+1,"._.",products[i],"-RS",price[i])
+
+    print("5.exit")
+    choice=int(input("enter productn no."))
+
+    if choice>=1 and choice<=4:
+        cart.append(products(choice-1))
+        total=total+price[choice-1]
+        print(products[choice-1], "added to cart")
+    elif choice==5:
+        break
+    else:
+        print("invalid choice")
+    print("===your cart===")
+    if len(cart)==0:
+        print("cart is empty")
+    else:
+        for items in cart:
+            print("_",item) # type: ignore
+            print("total amount=RS",total)
+
+print("thank you for shopping")
