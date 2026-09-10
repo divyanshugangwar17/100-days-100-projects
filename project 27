@@ -1,0 +1,24 @@
+import time
+
+print("=== SPEED TYPING TEST ===")
+
+sentence = "jksdfahlfbhwkfhnwehklfesklfhnawklffhfklh"
+
+print("\nTYPE THIS EXACTLY:")
+print(sentence)
+
+input("\nPress Enter to start...")
+
+start = time.time()
+
+typed = input("\nStart typing!!! ")
+
+end = time.time()
+
+time_taken = round(end - start, 2)
+
+# Calculate characters per second
+speed = round(len(typed) / time_taken, 2)
+
+print("\nTime taken:", time_taken, "seconds")
+print("Typing speed:", speed, "characters/second")
