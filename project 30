@@ -1,0 +1,40 @@
+tasks = []
+
+while True:
+    print("\n1. Add task")
+    print("2. View tasks")
+    print("3. Remove task")
+    print("4. Exit")
+
+    choice = input("CHOOSE NO: ")
+
+    if choice == "1":
+        task = input("ENTER TASK: ")
+        tasks.append(task)
+        print("TASK ADDED!!")
+
+    elif choice == "2":
+        print("\nYOUR TASKS:")
+
+        if not tasks:
+            print("No tasks available.")
+        else:
+            for i, task in enumerate(tasks, start=1):
+                print(f"{i}. {task}")
+
+    elif choice == "3":
+        task = input("ENTER TASK TO BE REMOVED: ")
+
+        if task in tasks:
+            tasks.remove(task)
+            print("TASK REMOVED!!!")
+        else:
+            print("TASK NOT FOUND")
+
+    elif choice == "4":
+        print("BYE!!!!")
+        break
+
+    else:
+        print("INVALID CHOICE!")
+
